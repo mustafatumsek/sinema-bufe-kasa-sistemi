@@ -28,586 +28,601 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
+            panelHesap = new Panel();
             button1 = new Button();
-            textBox5 = new TextBox();
+            txtCips = new TextBox();
             label6 = new Label();
-            textBox4 = new TextBox();
+            txtCikolata = new TextBox();
             label5 = new Label();
-            textBox3 = new TextBox();
+            txtIcecek = new TextBox();
             label4 = new Label();
-            textBox2 = new TextBox();
+            txtMisir = new TextBox();
             label3 = new Label();
-            textBox1 = new TextBox();
+            txtBilet = new TextBox();
             label2 = new Label();
-            label1 = new Label();
-            groupBox1 = new GroupBox();
-            label31 = new Label();
-            label11 = new Label();
-            label10 = new Label();
-            label9 = new Label();
-            label8 = new Label();
-            label7 = new Label();
-            panel2 = new Panel();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            label30 = new Label();
-            label29 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            label25 = new Label();
-            label26 = new Label();
-            label27 = new Label();
-            label22 = new Label();
-            label21 = new Label();
-            label20 = new Label();
-            label19 = new Label();
-            label18 = new Label();
-            label17 = new Label();
-            label16 = new Label();
-            label15 = new Label();
-            label14 = new Label();
-            label13 = new Label();
-            label12 = new Label();
-            panel3 = new Panel();
+            lblHesap = new Label();
+            gbFiyat = new GroupBox();
+            lblFiyatListesi = new Label();
+            lblCipsFiyat = new Label();
+            lblCikolataFiyat = new Label();
+            lblIcecekFiyat = new Label();
+            lblMisirFiyat = new Label();
+            lblBiletFiyat = new Label();
+            panelKasa = new Panel();
+            btnGunsonu = new Button();
+            btnIptal = new Button();
+            btnOnay = new Button();
+            lblToplamFiyat = new Label();
+            lblToplam = new Label();
+            lblBiletUcret = new Label();
+            lblMisirUcret = new Label();
+            lblIcecekUcret = new Label();
+            lblCikolataUcret = new Label();
+            lblCipsUcret = new Label();
+            lblCipsAdet = new Label();
+            lblCikolataAdet = new Label();
+            lblIcecekAdet = new Label();
+            lblMisirAdet = new Label();
+            lblBiletAdet = new Label();
+            lblKasaCips = new Label();
+            lblKasaCikolata = new Label();
+            lblKasaIcecek = new Label();
+            lblKasaMisir = new Label();
+            lblKasaBilet = new Label();
+            lblKasa = new Label();
+            panelHead = new Panel();
             label28 = new Label();
-            panel1.SuspendLayout();
-            groupBox1.SuspendLayout();
-            panel2.SuspendLayout();
-            panel3.SuspendLayout();
+            panelHesap.SuspendLayout();
+            gbFiyat.SuspendLayout();
+            panelKasa.SuspendLayout();
+            panelHead.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
+            // panelHesap
             // 
-            panel1.BackColor = Color.Wheat;
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(textBox5);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label1);
-            panel1.Location = new Point(24, 142);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(222, 281);
-            panel1.TabIndex = 0;
+            panelHesap.BackColor = Color.Wheat;
+            panelHesap.Controls.Add(button1);
+            panelHesap.Controls.Add(txtCips);
+            panelHesap.Controls.Add(label6);
+            panelHesap.Controls.Add(txtCikolata);
+            panelHesap.Controls.Add(label5);
+            panelHesap.Controls.Add(txtIcecek);
+            panelHesap.Controls.Add(label4);
+            panelHesap.Controls.Add(txtMisir);
+            panelHesap.Controls.Add(label3);
+            panelHesap.Controls.Add(txtBilet);
+            panelHesap.Controls.Add(label2);
+            panelHesap.Controls.Add(lblHesap);
+            panelHesap.Location = new Point(27, 189);
+            panelHesap.Margin = new Padding(3, 4, 3, 4);
+            panelHesap.Name = "panelHesap";
+            panelHesap.Size = new Size(254, 375);
+            panelHesap.TabIndex = 0;
             // 
             // button1
             // 
-            button1.Location = new Point(71, 245);
+            button1.Location = new Point(81, 327);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 11;
             button1.Text = "Hesapla";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // textBox5
+            // txtCips
             // 
-            textBox5.Location = new Point(107, 191);
-            textBox5.MaxLength = 2;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(54, 23);
-            textBox5.TabIndex = 10;
-            textBox5.KeyPress += textBox5_KeyPress;
+            txtCips.Location = new Point(122, 255);
+            txtCips.Margin = new Padding(3, 4, 3, 4);
+            txtCips.MaxLength = 2;
+            txtCips.Name = "txtCips";
+            txtCips.Size = new Size(61, 27);
+            txtCips.TabIndex = 10;
+            txtCips.KeyPress += textBox5_KeyPress;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(52, 196);
+            label6.Location = new Point(59, 261);
             label6.Name = "label6";
-            label6.Size = new Size(37, 16);
+            label6.Size = new Size(47, 19);
             label6.TabIndex = 9;
             label6.Text = "Cips:";
             // 
-            // textBox4
+            // txtCikolata
             // 
-            textBox4.Location = new Point(107, 158);
-            textBox4.MaxLength = 2;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(54, 23);
-            textBox4.TabIndex = 8;
-            textBox4.KeyPress += textBox4_KeyPress;
+            txtCikolata.Location = new Point(122, 211);
+            txtCikolata.Margin = new Padding(3, 4, 3, 4);
+            txtCikolata.MaxLength = 2;
+            txtCikolata.Name = "txtCikolata";
+            txtCikolata.Size = new Size(61, 27);
+            txtCikolata.TabIndex = 8;
+            txtCikolata.KeyPress += textBox4_KeyPress;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(31, 160);
+            label5.Location = new Point(35, 213);
             label5.Name = "label5";
-            label5.Size = new Size(58, 16);
+            label5.Size = new Size(72, 19);
             label5.TabIndex = 7;
             label5.Text = "Çikolata:";
             // 
-            // textBox3
+            // txtIcecek
             // 
-            textBox3.Location = new Point(107, 126);
-            textBox3.MaxLength = 2;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(54, 23);
-            textBox3.TabIndex = 6;
-            textBox3.KeyPress += textBox3_KeyPress;
+            txtIcecek.Location = new Point(122, 168);
+            txtIcecek.Margin = new Padding(3, 4, 3, 4);
+            txtIcecek.MaxLength = 2;
+            txtIcecek.Name = "txtIcecek";
+            txtIcecek.Size = new Size(61, 27);
+            txtIcecek.TabIndex = 6;
+            txtIcecek.KeyPress += textBox3_KeyPress;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(40, 128);
+            label4.Location = new Point(46, 171);
             label4.Name = "label4";
-            label4.Size = new Size(49, 16);
+            label4.Size = new Size(63, 19);
             label4.TabIndex = 5;
             label4.Text = "İçecek:";
             // 
-            // textBox2
+            // txtMisir
             // 
-            textBox2.Location = new Point(107, 95);
-            textBox2.MaxLength = 2;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(54, 23);
-            textBox2.TabIndex = 4;
-            textBox2.KeyPress += textBox2_KeyPress;
+            txtMisir.Location = new Point(122, 127);
+            txtMisir.Margin = new Padding(3, 4, 3, 4);
+            txtMisir.MaxLength = 2;
+            txtMisir.Name = "txtMisir";
+            txtMisir.Size = new Size(61, 27);
+            txtMisir.TabIndex = 4;
+            txtMisir.KeyPress += textBox2_KeyPress;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(50, 97);
+            label3.Location = new Point(57, 129);
             label3.Name = "label3";
-            label3.Size = new Size(39, 16);
+            label3.Size = new Size(51, 19);
             label3.TabIndex = 3;
             label3.Text = "Mısır:";
             // 
-            // textBox1
+            // txtBilet
             // 
-            textBox1.Location = new Point(107, 63);
-            textBox1.MaxLength = 2;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(54, 23);
-            textBox1.TabIndex = 2;
-            textBox1.KeyPress += textBox1_KeyPress;
+            txtBilet.Location = new Point(122, 84);
+            txtBilet.Margin = new Padding(3, 4, 3, 4);
+            txtBilet.MaxLength = 2;
+            txtBilet.Name = "txtBilet";
+            txtBilet.Size = new Size(61, 27);
+            txtBilet.TabIndex = 2;
+            txtBilet.KeyPress += textBox1_KeyPress;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(52, 65);
+            label2.Location = new Point(59, 87);
             label2.Name = "label2";
-            label2.Size = new Size(37, 16);
+            label2.Size = new Size(45, 19);
             label2.TabIndex = 1;
             label2.Text = "Bilet:";
             // 
-            // label1
+            // lblHesap
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(52, 15);
-            label1.Name = "label1";
-            label1.Size = new Size(109, 22);
-            label1.TabIndex = 0;
-            label1.Text = "Ürün Miktarı";
+            lblHesap.AutoSize = true;
+            lblHesap.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblHesap.Location = new Point(59, 20);
+            lblHesap.Name = "lblHesap";
+            lblHesap.Size = new Size(142, 27);
+            lblHesap.TabIndex = 0;
+            lblHesap.Text = "Ürün Miktarı";
             // 
-            // groupBox1
+            // gbFiyat
             // 
-            groupBox1.BackColor = Color.Wheat;
-            groupBox1.Controls.Add(label31);
-            groupBox1.Controls.Add(label11);
-            groupBox1.Controls.Add(label10);
-            groupBox1.Controls.Add(label9);
-            groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(label7);
-            groupBox1.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox1.Location = new Point(271, 142);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(222, 281);
-            groupBox1.TabIndex = 1;
-            groupBox1.TabStop = false;
+            gbFiyat.BackColor = Color.Wheat;
+            gbFiyat.Controls.Add(lblFiyatListesi);
+            gbFiyat.Controls.Add(lblCipsFiyat);
+            gbFiyat.Controls.Add(lblCikolataFiyat);
+            gbFiyat.Controls.Add(lblIcecekFiyat);
+            gbFiyat.Controls.Add(lblMisirFiyat);
+            gbFiyat.Controls.Add(lblBiletFiyat);
+            gbFiyat.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            gbFiyat.Location = new Point(310, 189);
+            gbFiyat.Margin = new Padding(3, 4, 3, 4);
+            gbFiyat.Name = "gbFiyat";
+            gbFiyat.Padding = new Padding(3, 4, 3, 4);
+            gbFiyat.Size = new Size(254, 375);
+            gbFiyat.TabIndex = 1;
+            gbFiyat.TabStop = false;
             // 
-            // label31
+            // lblFiyatListesi
             // 
-            label31.AutoSize = true;
-            label31.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label31.Location = new Point(59, 15);
-            label31.Name = "label31";
-            label31.Size = new Size(110, 22);
-            label31.TabIndex = 30;
-            label31.Text = "Fiyat Listesi";
+            lblFiyatListesi.AutoSize = true;
+            lblFiyatListesi.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblFiyatListesi.Location = new Point(67, 20);
+            lblFiyatListesi.Name = "lblFiyatListesi";
+            lblFiyatListesi.Size = new Size(138, 27);
+            lblFiyatListesi.TabIndex = 30;
+            lblFiyatListesi.Text = "Fiyat Listesi";
             // 
-            // label11
+            // lblCipsFiyat
             // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Helvetica", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label11.Location = new Point(71, 237);
-            label11.Name = "label11";
-            label11.Size = new Size(82, 19);
-            label11.TabIndex = 7;
-            label11.Text = "Cips: 5 TL";
+            lblCipsFiyat.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCipsFiyat.Location = new Point(6, 316);
+            lblCipsFiyat.Name = "lblCipsFiyat";
+            lblCipsFiyat.Size = new Size(242, 31);
+            lblCipsFiyat.TabIndex = 7;
+            lblCipsFiyat.Text = "Cips: 5 TL";
+            lblCipsFiyat.TextAlign = ContentAlignment.TopCenter;
             // 
-            // label10
+            // lblCikolataFiyat
             // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Helvetica", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(54, 198);
-            label10.Name = "label10";
-            label10.Size = new Size(121, 19);
-            label10.TabIndex = 5;
-            label10.Text = "Çikolata: 3.5 TL";
+            lblCikolataFiyat.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCikolataFiyat.Location = new Point(6, 264);
+            lblCikolataFiyat.Name = "lblCikolataFiyat";
+            lblCikolataFiyat.Size = new Size(242, 31);
+            lblCikolataFiyat.TabIndex = 5;
+            lblCikolataFiyat.Text = "Çikolata: 3.5 TL";
+            lblCikolataFiyat.TextAlign = ContentAlignment.TopCenter;
             // 
-            // label9
+            // lblIcecekFiyat
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Helvetica", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.Location = new Point(63, 157);
-            label9.Name = "label9";
-            label9.Size = new Size(104, 19);
-            label9.TabIndex = 3;
-            label9.Text = "İçecek: 10 TL";
+            lblIcecekFiyat.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblIcecekFiyat.Location = new Point(6, 209);
+            lblIcecekFiyat.Name = "lblIcecekFiyat";
+            lblIcecekFiyat.Size = new Size(242, 31);
+            lblIcecekFiyat.TabIndex = 3;
+            lblIcecekFiyat.Text = "İçecek: 10 TL";
+            lblIcecekFiyat.TextAlign = ContentAlignment.TopCenter;
             // 
-            // label8
+            // lblMisirFiyat
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Helvetica", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(62, 115);
-            label8.Name = "label8";
-            label8.Size = new Size(105, 19);
-            label8.TabIndex = 1;
-            label8.Text = "Mısır: 12.5 TL";
+            lblMisirFiyat.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblMisirFiyat.Location = new Point(6, 153);
+            lblMisirFiyat.Name = "lblMisirFiyat";
+            lblMisirFiyat.Size = new Size(242, 31);
+            lblMisirFiyat.TabIndex = 1;
+            lblMisirFiyat.Text = "Mısır: 12.5 TL";
+            lblMisirFiyat.TextAlign = ContentAlignment.TopCenter;
             // 
-            // label7
+            // lblBiletFiyat
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Helvetica", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(66, 74);
-            label7.Name = "label7";
-            label7.Size = new Size(90, 19);
-            label7.TabIndex = 0;
-            label7.Text = "Bilet: 25 TL";
+            lblBiletFiyat.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblBiletFiyat.Location = new Point(6, 99);
+            lblBiletFiyat.Name = "lblBiletFiyat";
+            lblBiletFiyat.Size = new Size(242, 31);
+            lblBiletFiyat.TabIndex = 0;
+            lblBiletFiyat.Text = "Bilet: 25 TL";
+            lblBiletFiyat.TextAlign = ContentAlignment.TopCenter;
             // 
-            // panel2
+            // panelKasa
             // 
-            panel2.BackColor = Color.Wheat;
-            panel2.Controls.Add(button4);
-            panel2.Controls.Add(button3);
-            panel2.Controls.Add(button2);
-            panel2.Controls.Add(label30);
-            panel2.Controls.Add(label29);
-            panel2.Controls.Add(label23);
-            panel2.Controls.Add(label24);
-            panel2.Controls.Add(label25);
-            panel2.Controls.Add(label26);
-            panel2.Controls.Add(label27);
-            panel2.Controls.Add(label22);
-            panel2.Controls.Add(label21);
-            panel2.Controls.Add(label20);
-            panel2.Controls.Add(label19);
-            panel2.Controls.Add(label18);
-            panel2.Controls.Add(label17);
-            panel2.Controls.Add(label16);
-            panel2.Controls.Add(label15);
-            panel2.Controls.Add(label14);
-            panel2.Controls.Add(label13);
-            panel2.Controls.Add(label12);
-            panel2.Location = new Point(521, 142);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(222, 281);
-            panel2.TabIndex = 8;
+            panelKasa.BackColor = Color.Wheat;
+            panelKasa.Controls.Add(btnGunsonu);
+            panelKasa.Controls.Add(btnIptal);
+            panelKasa.Controls.Add(btnOnay);
+            panelKasa.Controls.Add(lblToplamFiyat);
+            panelKasa.Controls.Add(lblToplam);
+            panelKasa.Controls.Add(lblBiletUcret);
+            panelKasa.Controls.Add(lblMisirUcret);
+            panelKasa.Controls.Add(lblIcecekUcret);
+            panelKasa.Controls.Add(lblCikolataUcret);
+            panelKasa.Controls.Add(lblCipsUcret);
+            panelKasa.Controls.Add(lblCipsAdet);
+            panelKasa.Controls.Add(lblCikolataAdet);
+            panelKasa.Controls.Add(lblIcecekAdet);
+            panelKasa.Controls.Add(lblMisirAdet);
+            panelKasa.Controls.Add(lblBiletAdet);
+            panelKasa.Controls.Add(lblKasaCips);
+            panelKasa.Controls.Add(lblKasaCikolata);
+            panelKasa.Controls.Add(lblKasaIcecek);
+            panelKasa.Controls.Add(lblKasaMisir);
+            panelKasa.Controls.Add(lblKasaBilet);
+            panelKasa.Controls.Add(lblKasa);
+            panelKasa.Location = new Point(595, 189);
+            panelKasa.Margin = new Padding(3, 4, 3, 4);
+            panelKasa.Name = "panelKasa";
+            panelKasa.Size = new Size(254, 375);
+            panelKasa.TabIndex = 8;
             // 
-            // button4
+            // btnGunsonu
             // 
-            button4.Enabled = false;
-            button4.Location = new Point(151, 247);
-            button4.Name = "button4";
-            button4.Size = new Size(63, 23);
-            button4.TabIndex = 30;
-            button4.Text = "Günsonu";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            btnGunsonu.Enabled = false;
+            btnGunsonu.Font = new Font("Segoe UI", 7F, FontStyle.Regular, GraphicsUnit.Point);
+            btnGunsonu.Location = new Point(173, 329);
+            btnGunsonu.Margin = new Padding(3, 4, 3, 4);
+            btnGunsonu.Name = "btnGunsonu";
+            btnGunsonu.Size = new Size(72, 31);
+            btnGunsonu.TabIndex = 30;
+            btnGunsonu.Text = "Günsonu";
+            btnGunsonu.UseVisualStyleBackColor = true;
+            btnGunsonu.Click += button4_Click;
             // 
-            // button3
+            // btnIptal
             // 
-            button3.Location = new Point(7, 247);
-            button3.Name = "button3";
-            button3.Size = new Size(63, 23);
-            button3.TabIndex = 29;
-            button3.Text = "İptal";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btnIptal.Location = new Point(8, 329);
+            btnIptal.Margin = new Padding(3, 4, 3, 4);
+            btnIptal.Name = "btnIptal";
+            btnIptal.Size = new Size(72, 31);
+            btnIptal.TabIndex = 29;
+            btnIptal.Text = "İptal";
+            btnIptal.UseVisualStyleBackColor = true;
+            btnIptal.Click += button3_Click;
             // 
-            // button2
+            // btnOnay
             // 
-            button2.Enabled = false;
-            button2.Location = new Point(79, 247);
-            button2.Name = "button2";
-            button2.Size = new Size(63, 23);
-            button2.TabIndex = 12;
-            button2.Text = "Onayla";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btnOnay.Enabled = false;
+            btnOnay.Location = new Point(90, 329);
+            btnOnay.Margin = new Padding(3, 4, 3, 4);
+            btnOnay.Name = "btnOnay";
+            btnOnay.Size = new Size(72, 31);
+            btnOnay.TabIndex = 12;
+            btnOnay.Text = "Onayla";
+            btnOnay.UseVisualStyleBackColor = true;
+            btnOnay.Click += button2_Click;
             // 
-            // label30
+            // lblToplamFiyat
             // 
-            label30.AutoSize = true;
-            label30.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label30.Location = new Point(138, 210);
-            label30.Name = "label30";
-            label30.Size = new Size(69, 21);
-            label30.TabIndex = 28;
-            label30.Text = "00.00 TL";
+            lblToplamFiyat.AutoSize = true;
+            lblToplamFiyat.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblToplamFiyat.Location = new Point(158, 280);
+            lblToplamFiyat.Name = "lblToplamFiyat";
+            lblToplamFiyat.Size = new Size(84, 28);
+            lblToplamFiyat.TabIndex = 28;
+            lblToplamFiyat.Text = "00.00 TL";
             // 
-            // label29
+            // lblToplam
             // 
-            label29.AutoSize = true;
-            label29.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label29.Location = new Point(60, 210);
-            label29.Name = "label29";
-            label29.Size = new Size(73, 21);
-            label29.TabIndex = 27;
-            label29.Text = "TOPLAM:";
+            lblToplam.AutoSize = true;
+            lblToplam.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblToplam.Location = new Point(69, 280);
+            lblToplam.Name = "lblToplam";
+            lblToplam.Size = new Size(92, 28);
+            lblToplam.TabIndex = 27;
+            lblToplam.Text = "TOPLAM:";
             // 
-            // label23
+            // lblBiletUcret
             // 
-            label23.AutoSize = true;
-            label23.Location = new Point(170, 63);
-            label23.Name = "label23";
-            label23.Size = new Size(49, 15);
-            label23.TabIndex = 26;
-            label23.Text = "00.00 TL";
+            lblBiletUcret.AutoSize = true;
+            lblBiletUcret.Location = new Point(194, 84);
+            lblBiletUcret.Name = "lblBiletUcret";
+            lblBiletUcret.Size = new Size(63, 20);
+            lblBiletUcret.TabIndex = 26;
+            lblBiletUcret.Text = "00.00 TL";
             // 
-            // label24
+            // lblMisirUcret
             // 
-            label24.AutoSize = true;
-            label24.Location = new Point(170, 93);
-            label24.Name = "label24";
-            label24.Size = new Size(49, 15);
-            label24.TabIndex = 25;
-            label24.Text = "00.00 TL";
+            lblMisirUcret.AutoSize = true;
+            lblMisirUcret.Location = new Point(194, 124);
+            lblMisirUcret.Name = "lblMisirUcret";
+            lblMisirUcret.Size = new Size(63, 20);
+            lblMisirUcret.TabIndex = 25;
+            lblMisirUcret.Text = "00.00 TL";
             // 
-            // label25
+            // lblIcecekUcret
             // 
-            label25.AutoSize = true;
-            label25.Location = new Point(170, 124);
-            label25.Name = "label25";
-            label25.Size = new Size(49, 15);
-            label25.TabIndex = 24;
-            label25.Text = "00.00 TL";
+            lblIcecekUcret.AutoSize = true;
+            lblIcecekUcret.Location = new Point(194, 165);
+            lblIcecekUcret.Name = "lblIcecekUcret";
+            lblIcecekUcret.Size = new Size(63, 20);
+            lblIcecekUcret.TabIndex = 24;
+            lblIcecekUcret.Text = "00.00 TL";
             // 
-            // label26
+            // lblCikolataUcret
             // 
-            label26.AutoSize = true;
-            label26.Location = new Point(170, 152);
-            label26.Name = "label26";
-            label26.Size = new Size(49, 15);
-            label26.TabIndex = 23;
-            label26.Text = "00.00 TL";
+            lblCikolataUcret.AutoSize = true;
+            lblCikolataUcret.Location = new Point(194, 203);
+            lblCikolataUcret.Name = "lblCikolataUcret";
+            lblCikolataUcret.Size = new Size(63, 20);
+            lblCikolataUcret.TabIndex = 23;
+            lblCikolataUcret.Text = "00.00 TL";
             // 
-            // label27
+            // lblCipsUcret
             // 
-            label27.AutoSize = true;
-            label27.Location = new Point(170, 184);
-            label27.Name = "label27";
-            label27.Size = new Size(49, 15);
-            label27.TabIndex = 22;
-            label27.Text = "00.00 TL";
+            lblCipsUcret.AutoSize = true;
+            lblCipsUcret.Location = new Point(194, 245);
+            lblCipsUcret.Name = "lblCipsUcret";
+            lblCipsUcret.Size = new Size(63, 20);
+            lblCipsUcret.TabIndex = 22;
+            lblCipsUcret.Text = "00.00 TL";
             // 
-            // label22
+            // lblCipsAdet
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(10, 181);
-            label22.Name = "label22";
-            label22.Size = new Size(13, 15);
-            label22.TabIndex = 21;
-            label22.Text = "0";
+            lblCipsAdet.AutoSize = true;
+            lblCipsAdet.Location = new Point(11, 241);
+            lblCipsAdet.Name = "lblCipsAdet";
+            lblCipsAdet.Size = new Size(17, 20);
+            lblCipsAdet.TabIndex = 21;
+            lblCipsAdet.Text = "0";
             // 
-            // label21
+            // lblCikolataAdet
             // 
-            label21.AutoSize = true;
-            label21.Location = new Point(10, 152);
-            label21.Name = "label21";
-            label21.Size = new Size(13, 15);
-            label21.TabIndex = 20;
-            label21.Text = "0";
+            lblCikolataAdet.AutoSize = true;
+            lblCikolataAdet.Location = new Point(11, 203);
+            lblCikolataAdet.Name = "lblCikolataAdet";
+            lblCikolataAdet.Size = new Size(17, 20);
+            lblCikolataAdet.TabIndex = 20;
+            lblCikolataAdet.Text = "0";
             // 
-            // label20
+            // lblIcecekAdet
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(10, 122);
-            label20.Name = "label20";
-            label20.Size = new Size(13, 15);
-            label20.TabIndex = 19;
-            label20.Text = "0";
+            lblIcecekAdet.AutoSize = true;
+            lblIcecekAdet.Location = new Point(11, 163);
+            lblIcecekAdet.Name = "lblIcecekAdet";
+            lblIcecekAdet.Size = new Size(17, 20);
+            lblIcecekAdet.TabIndex = 19;
+            lblIcecekAdet.Text = "0";
             // 
-            // label19
+            // lblMisirAdet
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(10, 93);
-            label19.Name = "label19";
-            label19.Size = new Size(13, 15);
-            label19.TabIndex = 18;
-            label19.Text = "0";
+            lblMisirAdet.AutoSize = true;
+            lblMisirAdet.Location = new Point(11, 124);
+            lblMisirAdet.Name = "lblMisirAdet";
+            lblMisirAdet.Size = new Size(17, 20);
+            lblMisirAdet.TabIndex = 18;
+            lblMisirAdet.Text = "0";
             // 
-            // label18
+            // lblBiletAdet
             // 
-            label18.AutoSize = true;
-            label18.Location = new Point(10, 63);
-            label18.Name = "label18";
-            label18.Size = new Size(13, 15);
-            label18.TabIndex = 17;
-            label18.Text = "0";
+            lblBiletAdet.AutoSize = true;
+            lblBiletAdet.Location = new Point(11, 84);
+            lblBiletAdet.Name = "lblBiletAdet";
+            lblBiletAdet.Size = new Size(17, 20);
+            lblBiletAdet.TabIndex = 17;
+            lblBiletAdet.Text = "0";
             // 
-            // label17
+            // lblKasaCips
             // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label17.Location = new Point(60, 179);
-            label17.Name = "label17";
-            label17.Size = new Size(38, 17);
-            label17.TabIndex = 16;
-            label17.Text = "Cips";
+            lblKasaCips.AutoSize = true;
+            lblKasaCips.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblKasaCips.Location = new Point(69, 239);
+            lblKasaCips.Name = "lblKasaCips";
+            lblKasaCips.Size = new Size(49, 22);
+            lblKasaCips.TabIndex = 16;
+            lblKasaCips.Text = "Cips";
             // 
-            // label16
+            // lblKasaCikolata
             // 
-            label16.AutoSize = true;
-            label16.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label16.Location = new Point(60, 150);
-            label16.Name = "label16";
-            label16.Size = new Size(60, 17);
-            label16.TabIndex = 15;
-            label16.Text = "Çikolata";
+            lblKasaCikolata.AutoSize = true;
+            lblKasaCikolata.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblKasaCikolata.Location = new Point(69, 200);
+            lblKasaCikolata.Name = "lblKasaCikolata";
+            lblKasaCikolata.Size = new Size(77, 22);
+            lblKasaCikolata.TabIndex = 15;
+            lblKasaCikolata.Text = "Çikolata";
             // 
-            // label15
+            // lblKasaIcecek
             // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label15.Location = new Point(60, 120);
-            label15.Name = "label15";
-            label15.Size = new Size(50, 17);
-            label15.TabIndex = 14;
-            label15.Text = "İçecek";
+            lblKasaIcecek.AutoSize = true;
+            lblKasaIcecek.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblKasaIcecek.Location = new Point(69, 160);
+            lblKasaIcecek.Name = "lblKasaIcecek";
+            lblKasaIcecek.Size = new Size(67, 22);
+            lblKasaIcecek.TabIndex = 14;
+            lblKasaIcecek.Text = "İçecek";
             // 
-            // label14
+            // lblKasaMisir
             // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label14.Location = new Point(60, 91);
-            label14.Name = "label14";
-            label14.Size = new Size(38, 17);
-            label14.TabIndex = 13;
-            label14.Text = "Mısır";
+            lblKasaMisir.AutoSize = true;
+            lblKasaMisir.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblKasaMisir.Location = new Point(69, 121);
+            lblKasaMisir.Name = "lblKasaMisir";
+            lblKasaMisir.Size = new Size(53, 22);
+            lblKasaMisir.TabIndex = 13;
+            lblKasaMisir.Text = "Mısır";
             // 
-            // label13
+            // lblKasaBilet
             // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.Location = new Point(60, 61);
-            label13.Name = "label13";
-            label13.Size = new Size(36, 17);
-            label13.TabIndex = 12;
-            label13.Text = "Bilet";
+            lblKasaBilet.AutoSize = true;
+            lblKasaBilet.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblKasaBilet.Location = new Point(69, 81);
+            lblKasaBilet.Name = "lblKasaBilet";
+            lblKasaBilet.Size = new Size(47, 22);
+            lblKasaBilet.TabIndex = 12;
+            lblKasaBilet.Text = "Bilet";
             // 
-            // label12
+            // lblKasa
             // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.Location = new Point(87, 15);
-            label12.Name = "label12";
-            label12.Size = new Size(53, 22);
-            label12.TabIndex = 11;
-            label12.Text = "Kasa";
+            lblKasa.AutoSize = true;
+            lblKasa.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblKasa.Location = new Point(99, 20);
+            lblKasa.Name = "lblKasa";
+            lblKasa.Size = new Size(66, 27);
+            lblKasa.TabIndex = 11;
+            lblKasa.Text = "Kasa";
             // 
-            // panel3
+            // panelHead
             // 
-            panel3.BackColor = Color.Wheat;
-            panel3.Controls.Add(label28);
-            panel3.Location = new Point(0, 23);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(814, 62);
-            panel3.TabIndex = 9;
+            panelHead.BackColor = Color.Wheat;
+            panelHead.Controls.Add(label28);
+            panelHead.Location = new Point(0, 31);
+            panelHead.Margin = new Padding(3, 4, 3, 4);
+            panelHead.Name = "panelHead";
+            panelHead.Size = new Size(930, 83);
+            panelHead.TabIndex = 9;
             // 
             // label28
             // 
-            label28.AutoSize = true;
-            label28.Font = new Font("ø", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            label28.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Bold, GraphicsUnit.Point);
             label28.ForeColor = SystemColors.ControlText;
-            label28.Location = new Point(250, 0);
+            label28.Location = new Point(12, 7);
             label28.Name = "label28";
-            label28.Size = new Size(268, 58);
+            label28.Size = new Size(854, 92);
             label28.TabIndex = 0;
             label28.Text = "Cinelista Büfe";
+            label28.TextAlign = ContentAlignment.TopCenter;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Maroon;
-            ClientSize = new Size(768, 450);
-            Controls.Add(panel3);
-            Controls.Add(panel2);
-            Controls.Add(groupBox1);
-            Controls.Add(panel1);
+            ClientSize = new Size(878, 600);
+            Controls.Add(panelHead);
+            Controls.Add(panelKasa);
+            Controls.Add(gbFiyat);
+            Controls.Add(panelHesap);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Cinelista Büfe";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
+            panelHesap.ResumeLayout(false);
+            panelHesap.PerformLayout();
+            gbFiyat.ResumeLayout(false);
+            gbFiyat.PerformLayout();
+            panelKasa.ResumeLayout(false);
+            panelKasa.PerformLayout();
+            panelHead.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
-        private TextBox textBox1;
+        private Panel panelHesap;
+        private TextBox txtBilet;
         private Label label2;
-        private Label label1;
-        private TextBox textBox5;
+        private Label lblHesap;
+        private TextBox txtCips;
         private Label label6;
-        private TextBox textBox4;
+        private TextBox txtCikolata;
         private Label label5;
-        private TextBox textBox3;
+        private TextBox txtIcecek;
         private Label label4;
-        private TextBox textBox2;
+        private TextBox txtMisir;
         private Label label3;
-        private GroupBox groupBox1;
-        private Label label8;
-        private Label label7;
-        private Label label11;
-        private Label label10;
-        private Label label9;
+        private GroupBox gbFiyat;
+        private Label lblMisirFiyat;
+        private Label lblBiletFiyat;
+        private Label lblCipsFiyat;
+        private Label lblCikolataFiyat;
+        private Label lblIcecekFiyat;
         private Button button1;
-        private Panel panel2;
-        private Label label18;
-        private Label label17;
-        private Label label16;
-        private Label label15;
-        private Label label14;
-        private Label label13;
-        private Label label12;
-        private Label label22;
-        private Label label21;
-        private Label label20;
-        private Label label19;
-        private Label label23;
-        private Label label24;
-        private Label label25;
-        private Label label26;
-        private Label label27;
-        private Panel panel3;
+        private Panel panelKasa;
+        private Label lblBiletAdet;
+        private Label lblKasaCips;
+        private Label lblKasaCikolata;
+        private Label lblKasaIcecek;
+        private Label lblKasaMisir;
+        private Label lblKasaBilet;
+        private Label lblKasa;
+        private Label lblCipsAdet;
+        private Label lblCikolataAdet;
+        private Label lblIcecekAdet;
+        private Label lblMisirAdet;
+        private Label lblBiletUcret;
+        private Label lblMisirUcret;
+        private Label lblIcecekUcret;
+        private Label lblCikolataUcret;
+        private Label lblCipsUcret;
+        private Panel panelHead;
         private Label label28;
-        private Button button3;
-        private Button button2;
-        private Label label30;
-        private Label label29;
-        private Label label31;
-        private Button button4;
+        private Button btnIptal;
+        private Button btnOnay;
+        private Label lblToplamFiyat;
+        private Label lblToplam;
+        private Label lblFiyatListesi;
+        private Button btnGunsonu;
     }
 }
